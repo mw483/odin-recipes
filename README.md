@@ -1,4 +1,4 @@
-# top-project-recipes
+# odin-recipes
 TOP Introductions Course, Project 1:  https://www.theodinproject.com/lessons/foundations-recipes
 What I learned so far:
 1. Boilerplate code
