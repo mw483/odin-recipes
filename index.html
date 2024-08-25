@@ -3,15 +3,29 @@
     <head>
         <meta charset="utf-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
-
-    <body>
-        <h1>Odin Recipes</h1>
-        <p>A list of my favorite recipes!</p>
-        <ul>
-            <li><a href="recipes/atsuage-kimchi-stirfry.html">Atsuage kimchi stir-fry</a></li>
-            <li><a href="recipes/dry-curry.html">Dry curry</a></li>
-            <li><a href="recipes/spaghetti-bolognese.html">Spaghetti Bolognese</a></li>
-        </ul>
+    <body class="background">
+        <div class="card">
+            <h1 class="page-title">Odin Recipes</h1>
+            <p class="para">A list of my favorite recipes!</p>
+            <div class="recipes-display">
+                <article class="recipe">
+                    <img src="./images/atsuage-kimchi-stirfry.jpg" height="720" width="720">
+                    <h2><a href="recipes/atsuage-kimchi-stirfry.html">Atsuage kimchi stir-fry</a></h2>
+                    <p>Atsuage is a pre-fried tofu sold in Japan, shaped like blocks. Stir-frying with tofu makes it flavorful! A healthy, cheap, and completely vegan dish!</p>
+                </article>
+                <article class="recipe">
+                    <img src="./images/dry-curry.jpg" height="720" width="720">
+                    <h2><a href="recipes/dry-curry.html">Dry curry</a></h2>
+                    <p>A style of Japanese curry but made with less water, and uses minced meat and mixed veggies instead of the usual diced meat, carrots, and potatoes.</p>
+                </article>
+                <article class="recipe">
+                    <img src="./images/spaghetti-bolognese.jpg" height="720" width="720">
+                    <h2><a href="recipes/spaghetti-bolognese.html">Spaghetti Bolognese</a></h2>
+                    <p>Basic spaghetti with meat and tomato sauce, with ingredients easily accessible in Japan</p>
+                </article>    
+            </div>    
+        </div>
     </body>
 </html>
